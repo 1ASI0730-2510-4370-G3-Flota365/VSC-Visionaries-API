@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Flota365.API</name>
+    </assembly>
+    <members>
+        <member name="T:Flota365.API.Application.DTOs.Auth.AuthResponseDto">
+            <summary>
+            Standard response DTO for auth operations
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Auth.ChangePasswordDto">
+            <summary>
+            DTO for changing user password
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Auth.LoginDto">
+            <summary>
+            DTO for user login
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Auth.RegisterDto">
+            <summary>
+            DTO for user registration
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Auth.UpdateProfileDto">
+            <summary>
+            DTO for updating user profile
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Auth.UserDto">
+            <summary>
+            DTO for user information
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Dashboard.ActiveVehicleDto">
+            <summary>
+            DTO for active vehicle display on dashboard
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Dashboard.DashboardStatsDto">
+            <summary>
+            DTO for main dashboard statistics
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Dashboard.FleetSummaryDto">
+            <summary>
+            DTO for fleet summary on dashboard
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Driver.CreateDriverDto">
+            <summary>
+            DTO for creating a new driver
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Driver.DriverListItemDto">
+            <summary>
+            Lightweight DTO for driver list displays
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Driver.DriverStatsDto">
+            <summary>
+            DTO for driver statistics
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Driver.UpdateDriverDto">
+            <summary>
+            DTO for updating driver information
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Fleet.CreateFleetDto">
+            <summary>
+            DTO for creating a new fleet
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Fleet.FleetDto">
+            <summary>
+            DTO for fleet information display
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Fleet.UpdateFleetDto">
+            <summary>
+            DTO for updating fleet information
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Maintenance.CreateMaintenanceDto">
+            <summary>
+            DTO for creating a new maintenance record
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Maintenance.CreateServiceRecordDto">
+            <summary>
+            DTO for creating a new service record
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Maintenance.MaintenanceDto">
+            <summary>
+            DTO for maintenance record information
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Maintenance.ServiceRecordDto">
+            <summary>
+            DTO for service record information
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Maintenance.UpdateMaintenanceDto">
+            <summary>
+            DTO for updating maintenance record
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Vehicle.CreateVehicleDto">
+            <summary>
+            DTO for creating a new vehicle
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Vehicle.UpdateVehicleDto">
+            <summary>
+            DTO for updating vehicle information
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Vehicle.VehicleListItemDto">
+            <summary>
+            Lightweight DTO for vehicle list displays
+            </summary>
+        </member>
+        <member name="T:Flota365.API.Application.DTOs.Vehicle.VehicleStatsDto">
+            <summary>
+            DTO for vehicle statistics
+            </summary>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.AuthController.Login(Flota365.API.Application.DTOs.Auth.LoginDto)">
+            <summary>
+            User login
+            </summary>
+            <param name="loginDto">Login credentials</param>
+            <returns>User information if login successful</returns>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.AuthController.Register(Flota365.API.Application.DTOs.Auth.RegisterDto)">
+            <summary>
+            User registration
+            </summary>
+            <param name="registerDto">Registration information</param>
+            <returns>Created user information</returns>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.AuthController.GetProfile(System.Int32)">
+            <summary>
+            Get user profile by ID
+            </summary>
+            <param name="id">User ID</param>
+            <returns>User profile information</returns>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.AuthController.GetProfileByEmail(System.String)">
+            <summary>
+            Get user profile by email
+            </summary>
+            <param name="email">User email</param>
+            <returns>User profile information</returns>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.AuthController.UpdateProfile(System.Int32,Flota365.API.Application.DTOs.Auth.UpdateProfileDto)">
+            <summary>
+            Update user profile
+            </summary>
+            <param name="id">User ID</param>
+            <param name="updateDto">Updated profile information</param>
+            <returns>Updated user information</returns>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.AuthController.ChangePassword(System.Int32,Flota365.API.Application.DTOs.Auth.ChangePasswordDto)">
+            <summary>
+            Change user password
+            </summary>
+            <param name="id">User ID</param>
+            <param name="changePasswordDto">Password change information</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.AuthController.GetAllUsers">
+            <summary>
+            Get all users (admin only)
+            </summary>
+            <returns>List of all users</returns>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.AuthController.DeactivateUser(System.Int32)">
+            <summary>
+            Deactivate user (admin only)
+            </summary>
+            <param name="id">User ID to deactivate</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.AuthController.HealthCheck">
+            <summary>
+            Check if service is running
+            </summary>
+            <returns>Service status</returns>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.DashboardController.GetDashboardStats">
+            <summary>
+            Get dashboard statistics
+            </summary>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.DashboardController.GetActiveVehicles">
+            <summary>
+            Get active vehicles for dashboard
+            </summary>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.DashboardController.GetFleetSummary">
+            <summary>
+            Get fleet summary for dashboard
+            </summary>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.DriversController.GetDrivers">
+            <summary>
+            Get all drivers
+            </summary>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.DriversController.GetDriver(System.Int32)">
+            <summary>
+            Get driver by ID
+            </summary>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.DriversController.CreateDriver(Flota365.API.Application.DTOs.Driver.CreateDriverDto)">
+            <summary>
+            Create new driver
+            </summary>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.DriversController.UpdateDriver(System.Int32,Flota365.API.Application.DTOs.Driver.UpdateDriverDto)">
+            <summary>
+            Update driver
+            </summary>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.DriversController.DeleteDriver(System.Int32)">
+            <summary>
+            Delete driver (soft delete)
+            </summary>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.DriversController.GetDriverStats">
+            <summary>
+            Get driver statistics
+            </summary>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.VehiclesController.GetVehicles">
+            <summary>
+            Get all vehicles
+            </summary>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.VehiclesController.GetVehicle(System.Int32)">
+            <summary>
+            Get vehicle by ID
+            </summary>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.VehiclesController.CreateVehicle(Flota365.API.Application.DTOs.Vehicle.CreateVehicleDto)">
+            <summary>
+            Create new vehicle
+            </summary>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.VehiclesController.UpdateVehicle(System.Int32,Flota365.API.Application.DTOs.Vehicle.UpdateVehicleDto)">
+            <summary>
+            Update vehicle
+            </summary>
+        </member>
+        <member name="M:Flota365.API.Presentation.Controllers.VehiclesController.DeleteVehicle(System.Int32)">
+            <summary>
+            Delete vehicle (soft delete)
+            </summary>
+        </member>
+    </members>
+</doc>

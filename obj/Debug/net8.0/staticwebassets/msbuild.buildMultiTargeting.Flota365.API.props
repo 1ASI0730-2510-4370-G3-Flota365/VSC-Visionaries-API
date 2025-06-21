@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Flota365.API.props" />
+</Project>
