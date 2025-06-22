@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Domingo Calvo\\Downloads\\Flota365.API\\Flota365.API\\Flota365.API.csproj": {}
+    "C:\\Users\\Ariana\\Documents\\appweb\\Flota365.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Domingo Calvo\\Downloads\\Flota365.API\\Flota365.API\\Flota365.API.csproj": {
+    "C:\\Users\\Ariana\\Documents\\appweb\\Flota365.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Domingo Calvo\\Downloads\\Flota365.API\\Flota365.API\\Flota365.API.csproj",
+        "projectUniqueName": "C:\\Users\\Ariana\\Documents\\appweb\\Flota365.API.csproj",
         "projectName": "Flota365.API",
-        "projectPath": "C:\\Users\\Domingo Calvo\\Downloads\\Flota365.API\\Flota365.API\\Flota365.API.csproj",
-        "packagesPath": "C:\\Users\\Domingo Calvo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Domingo Calvo\\Downloads\\Flota365.API\\Flota365.API\\obj\\",
+        "projectPath": "C:\\Users\\Ariana\\Documents\\appweb\\Flota365.API.csproj",
+        "packagesPath": "C:\\Users\\Ariana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ariana\\Documents\\appweb\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Domingo Calvo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Ariana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -116,24 +122,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.16, 8.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.16, 8.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.16, 8.0.16]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.16, 8.0.16]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -142,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Domingo Calvo\\.dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
