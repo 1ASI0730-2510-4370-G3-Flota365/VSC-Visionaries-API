@@ -3953,19 +3953,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Colegio\\.nuget\\packages\\": {}
+    "C:\\Users\\Domingo Calvo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Colegio\\Documents\\VSC-Visionaries\\VSC-Visionaries-API\\Flota365.API.csproj",
+      "projectUniqueName": "D:\\c#\\VSC-Visionaries-API\\Flota365.API.csproj",
       "projectName": "Flota365.API",
-      "projectPath": "C:\\Users\\Colegio\\Documents\\VSC-Visionaries\\VSC-Visionaries-API\\Flota365.API.csproj",
-      "packagesPath": "C:\\Users\\Colegio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Colegio\\Documents\\VSC-Visionaries\\VSC-Visionaries-API\\obj\\",
+      "projectPath": "D:\\c#\\VSC-Visionaries-API\\Flota365.API.csproj",
+      "packagesPath": "C:\\Users\\Domingo Calvo\\.nuget\\packages\\",
+      "outputPath": "D:\\c#\\VSC-Visionaries-API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Colegio\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Domingo Calvo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3989,7 +3989,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -4070,19 +4070,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
+            "version": "[8.0.16, 8.0.16]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.13, 8.0.13]"
+            "version": "[8.0.16, 8.0.16]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
+            "version": "[8.0.16, 8.0.16]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
+            "version": "[8.0.16, 8.0.16]"
           }
         ],
         "frameworkReferences": {
@@ -4093,7 +4093,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Domingo Calvo\\.dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
